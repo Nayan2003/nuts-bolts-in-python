@@ -1,0 +1,37 @@
+#1) creak following list
+#a)list of names of your 5 friends
+friends=['salu','anjalina','maya','arpita','nano']
+nei_country=['shri lanka','nepal','bangala desh','china','afganistan']
+seven_sis_ind=['Arunachal Pradesh','Meghalaya','Assam','Manipur', 'Nagaland', 'Tripura','Mizoram']
+cap_seven_sis_ind=['itangar','sillong','dispur','imphal','kohima','agartala','aizawl']
+solar_planet=['earth','saturn','mars','jupiter','mecury','venus','uranus','neptune','pluto']
+all_conti_wld=['Asia','North america','Europe','Africa','antarctica','south america','oceania']
+ocean_wld=['atlantica ocean','Indian ocean','pacific ocean','arctic ocean','southern ocean']
+friends(0:1)
+SyntaxError: invalid syntax
+friends(0:1):
+    
+SyntaxError: invalid syntax
+friends[0:1]
+['salu']
+friends[0:2]
+['salu', 'anjalina']
+nei_country[-1:-4]
+[]
+nei_country[-4:-1]
+['nepal', 'bangala desh', 'china']
+nei_country[3:6]
+['china', 'afganistan']
+nei_country[-4]
+'nepal'
+nei_country[-4:]
+['nepal', 'bangala desh', 'china', 'afganistan']
+nei_country[-3:]
+['bangala desh', 'china', 'afganistan']
+seven_sis_ind[2:6]
+['Assam', 'Manipur', 'Nagaland', 'Tripura']
+cap_seven_sis_ind[-4:]
+['imphal', 'kohima', 'agartala', 'aizawl']
+list_1=seven_sis_ind+cap_seven_sis_ind
+list_1
+['Arunachal Pradesh', 'Meghalaya', 'Assam', 'Manipur', 'Nagaland', 'Tripura', 'Mizoram', 'itangar', 'sillong', 'dispur', 'imphal', 'kohima', 'agartala', 'aizawl']
