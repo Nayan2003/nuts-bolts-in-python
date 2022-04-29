@@ -861,6 +861,23 @@ Enter number:5
 5 is prime number
 '''
 
+#Q13 Input a number and check whether it is prime or not
+'''
+import math
+n=int(input("Enter the number :"))
+x=True
+for i in range(2,int(math.sqrt(n))+1):
+    if n%i==0:
+        x=False
+        break
+if x==True:
+    print(n,"this number is prime number")
+else:
+    print(n,"This is not prime number:")
+output-
+Enter the number :5
+this number is prime number
+'''
 #Q14. Write a program to print the following pattern using a loop.
 '''for i in range(1,5):
     for j in range(1,5):
